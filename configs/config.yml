@@ -1,0 +1,11 @@
+port: "localhost:8585"
+
+psql:
+  host: "localhost"
+  port: "5432"
+  username: "postgres"
+  dbname: "postgres"
+  sslmode: "disable"
+
+redis:
+  addr: "localhost:6379"
